@@ -1,0 +1,71 @@
+%n-btn{
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0;
+    font-size: $text-size+1;
+}
+.btn-blue{
+   @extend %n-btn;
+   background: $primary-color;
+   padding: 11px 25px;
+   color: $secondary-color;
+   position: relative;
+   left: -60px;
+   &:hover{
+       background: $third-color;
+       border-style: $third-color;
+       border-color: $third-color;
+   }
+}
+.btn-blu{
+    @extend %n-btn;
+    padding: 13px 32px;
+    background: $primary-color;
+    color: $secondary-color;
+    position: relative;
+    left: -60px;
+    border-color: $primary-color;
+    &:hover{
+        background: $secondary-color;
+        color: $third-color;
+        border-style: $secondary-color;
+        border-color: $secondary-color;
+    }
+ }
+ .btn-white-white{
+    @extend %n-btn;
+    padding: 13px 32px;
+    background: $secondary-color;
+    color: $third-color;
+    position: relative;
+    left: -60px;
+    border-color: $secondary-color;
+    &:hover{
+        background: $primary-color;
+        color: $secondary-color;
+       border-color: $primary-color;
+       border-style:$primary-color;
+    } 
+ }
+.btn-white{
+    @extend %n-btn;
+    padding: 13px 32px;
+    background: $primary-color;
+    color: $secondary-color;
+    position: relative;
+    left: -60px;
+    &:hover{
+        background: $secondary-color;
+        color: $third-color;
+       border-color: $third-color;
+       border-style: $third-color;
+    }
+}
+.filter{
+        position: absolute;
+        background: rgba(19, 18, 18, 0.4);
+        left: 0;
+        top: 0;
+        width: 100%;
+       height: 100%;
+}
